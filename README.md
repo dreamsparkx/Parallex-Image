@@ -12,14 +12,19 @@ Parallex Image is a port of [atvImg library](https://github.com/drewwilson/atvIm
 
 ## Example
 
-    <ParallexImage
-    			   layers={[
-    			   '/assets/images/back.png',
-    			   '/assets/images/front.png',]}
-    			   staticFallback="/assets/images/icon-flattened.png"
-    			   isStatic={false}
-    			   style={{ flex: 0.21, height: 100, textAlign: 'center' }}
-    			   />
+``` javascript
+import ParallexImage from 'parallex-image';
+
+<ParallexImage
+  layers={[
+    '/assets/images/back.png',
+    '/assets/images/front.png',
+  ]}
+  staticFallback="/assets/images/icon-flattened.png"
+  isStatic={false}
+  style={{ flex: 0.21, height: 100, textAlign: 'center' }}
+/>
+```
 
 ## License
 
