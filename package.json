@@ -1,6 +1,6 @@
 {
   "name": "parallex-image",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "repository": "https://github.com/dreamsparkx/Parallex-Image.git",
   "author": "Gaurav Bharti <dreamsparks@outlook.com>",
@@ -8,6 +8,13 @@
   "scripts": {
     "build": "node_modules/.bin/babel src -d lib"
   },
+  "keywords": [
+    "react",
+    "component",
+    "parallex",
+    "image",
+    "Apple TV"
+  ],
   "peerDependencies": {
     "react": ">=16.2.0",
     "react-dom": ">=16.2.0",
